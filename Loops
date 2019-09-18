@@ -7,7 +7,7 @@
 public class uwu
 {
     public static void main( String[] args) {
-        int sum, cube, x;
+        int sum, myStr, cube, x;
         sum=0;
         System.out.println();  
         System.out.println("i\tsum\tcube i");  
@@ -20,11 +20,42 @@ public class uwu
         }  //end for
         
         
-        for(int i = 1; i <= 99; i = i - 2) {
-            sum = sum + i;
+        for(int i = 99; i >= 1; i = i - 2) {
             
-            System.out.println(i + "\t" + sum + "\t");
+            
+            System.out.println(i);
         }  //end for
         
+         
+        
+        String a = "The"; 
+        System.out.println(" The "); 
+        String b = "quick";
+        System.out.println(" quick ");
+        String c = "brown";
+        System.out.println( " brown ");
+        String d = "fox";
+        System.out.println(" fox ");
+        String e = "jumped";
+        System.out.println( " jumped ");
+        String f = "over";
+        System.out.println(" over ");
+        String g = "the";
+        System.out.println(" the ");
+        String h = "lazy";
+        System.out.println(" lazy ");
+        String i = "dog";
+        System.out.println(" dog ");
+        
+        int z = a.length();
+        int y = b.length();
+        int w = c.length();
+        int v = d.length();
+        int u = e.length();
+        int t = f.length();
+        int s = g.length();
+        int r = h.length();
+        int q = i.length();
+        System.out.println(z+y+w+v+u+t+s+r+q);
     } //end main
 }  //end Loops
