@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Bans
+{
+    public static void main(String[] args){
+   
+        int choice = 3;    
+        System.out.println("Pick a Number: 1,2, or 3");   
+        Scanner keys = new Scanner(System.in);
+        choice = keys.nextInt();
+        while (choice != 3){
+            if (choice == 1){
+             
+                
+                System.out.println("Stuff me Full");
+             int square = keys.nextInt();
+             System.out.println("I made it better! "+(square * square));
+             System.out.println("Pick a Number: 1,2, or 3");
+             choice = keys.nextInt();
+            }
+            
+            
+            
+            else  {
+             
+                
+                System.out.println("Stuff me Full");
+             int cube = keys.nextInt();
+             System.out.println("I made it EVEN better " +(cube * cube * cube)); 
+             System.out.println("Pick a Number: 1,2, or 3");
+             choice = keys.nextInt();
+            }  
+        }
+        System.out.println("Congrats, I'm the big full OWO!");
+        keys.close();
+    }
+}
+
+    
