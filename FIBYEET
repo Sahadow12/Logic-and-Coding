@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class FibSequence{
@@ -6,6 +7,8 @@ public static void main(String args[]){
 Scanner ie  = new Scanner(System.in);
    System.out.print("Enter your number bro.");
 int a = ie.nextInt();
+long result = sequence(a);
+System.out.println(result);
 
    
 }
@@ -13,13 +16,24 @@ int a = ie.nextInt();
 public static long sequence(int term){
 if(term==1||term==2){
     return 1;
-    
- 
- 
-
- 
+}
+    else{
+    long low = 1;
+    long high = 1;
+    int i;
+    for(i=3;i<=term;i++)
+    {
+       long sum = low + high;
+       low = high;
+       high = sum;
+       long results = i;
+    }
+     return high;
+       
+   
 
 }
 
 
+}
 }
